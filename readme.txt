@@ -14,3 +14,24 @@ Pizza Page
 5. reduced the number of pizzas
 
 you can see a website at http://fierceblonde.github.io 
+
+resources i used: 
+http://www.sitepoint.com/introduction-gulp-js/
+https://github.com/giakki/uncss
+https://www.npmjs.com/package/gulp-minify-css
+http://www.html5rocks.com/en/tutorials/speed/layers/
+http://www.html5rocks.com/en/tutorials/speed/rendering/#toc-raf
+udacity office hrs project 4
+Piazza forums 
+http://www.html5rocks.com/en/tutorials/speed/high-performance-animations/
+https://www.npmjs.com/package/gulp-uglify
+Udacity Web Performance Optimization Course 
+
+Anna Menitskaya
+
+“I hereby confirm that this submission is my work. 
+I have cited above the origins of any parts of the submission that 
+were taken from Websites, books, forums, blog posts, github repositories,
+etc. By including this in my email, I understand that I will be expected to
+explain my work in a video call with a Udacity coach before I can receive
+my verified certificate.”
