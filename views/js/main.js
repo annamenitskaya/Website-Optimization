@@ -507,7 +507,7 @@ function logAverageFrame(times) {   // times is the array of User Timing measure
 function updatePositions() {
   frame++;
   window.performance.mark("mark_start_frame");
-  //created scrollTopCalc variable to remove the calculation from the  For loop  
+  //**********created scrollTopCalc variable to remove the calculation from the  For loop  
   var scrollTopCalc = document.body.scrollTop / 1250;
   var items = document.querySelectorAll('.mover');
   for (var i = 0; i < items.length; i++) {
@@ -528,7 +528,8 @@ function updatePositions() {
 // runs updatePositions on scroll
 window.addEventListener('scroll', updatePositions);
 
-// Generates the sliding pizzas when the page loads.
+// Generates the sliding pizzas when the page loads. 
+// **** i reduced the number of pizzas to 24***********
 document.addEventListener('DOMContentLoaded', function() {
   var cols = 8;
   var s = 256;
