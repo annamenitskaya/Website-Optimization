@@ -18,6 +18,7 @@ cameron *at* udacity *dot* com
 
 // As you may have realized, this website randomly generates pizzas.
 // Here are arrays of all possible pizza ingredients.
+var scrollTopCalc = document.body.scrollTop / 1250;
 var pizzaIngredients = {};
 pizzaIngredients.meats = [
   "Pepperoni",
@@ -503,7 +504,7 @@ function logAverageFrame(times) {   // times is the array of User Timing measure
 // Moves the sliding background pizzas based on scroll position
 
 //removed scrollTopCalc function from the body of For loop   
-  var scrollTopCalc = document.body.scrollTop / 1250;
+  // var scrollTopCalc = document.body.scrollTop / 1250;
 function updatePositions() {
   frame++;
   window.performance.mark("mark_start_frame");
